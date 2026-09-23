@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Swap these per client: the whole site reads its colors and fonts from here. */
+@theme {
+  --color-cream: #fbf6ef;
+  --color-paper: #ffffff;
+  --color-ink: #2b2a33;
+  --color-muted: #6d6a72;
+  --color-pine: #2f4a3f;
+  --color-pine-dark: #22372f;
+  --color-blush: #f3e2da;
+  --color-honey: #e0a33a;
+  --color-berry: #b4546a;
+  --color-sage: #8fa487;
+  --color-line: #e8dfd4;
+
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-script: "Caveat", cursive;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-cream); color: var(--color-ink); font-family: var(--font-sans); }
+
+/* The signature headline look: bold sans with one handwritten word. */
+.script { font-family: var(--font-script); font-weight: 700; font-size: 1.18em; letter-spacing: 0; }
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+@keyframes fade-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.animate-fade-in { animation: fade-in .45s ease both; }
