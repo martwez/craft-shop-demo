@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react'
 import { collections, products, reviews, shop, type Art, type Collection } from '../data/shop'
-import { ArrowIcon, CloseIcon, HandHeartIcon, InstagramIcon, LockIcon, MailIcon, SparkleIcon, StarIcon, TruckIcon } from './Icons'
+import { ArrowIcon, CloseIcon, HandHeartIcon, LockIcon, MailIcon, SparkleIcon, StarIcon, TruckIcon } from './Icons'
 import ProductArt from './ProductArt'
 import ProductCard, { type ProductActions } from './ProductCard'
 import { Logo } from './Header'
@@ -189,7 +189,7 @@ export function About() {
         <div>
           <ScriptHeading script="Meet" title="the Maker" />
           <p className="mt-5 text-[1.05rem] leading-relaxed text-ink/85">
-            Hi, I'm Hannah! Bramble &amp; Bee started at my kitchen table with a crochet hook and a lot of late nights. Today
+            Hi, I'm Hannah! Chokecherry &amp; Wren started at my kitchen table with a crochet hook and a lot of late nights. Today
             I make critters, craft kits, and quilts in small batches right here in {shop.location}.
           </p>
           <p className="mt-4 text-[1.05rem] leading-relaxed text-ink/85">
@@ -202,12 +202,6 @@ export function About() {
               className="inline-flex items-center gap-2 rounded-full bg-pine px-6 py-3 font-semibold text-cream transition hover:bg-pine-dark"
             >
               <MailIcon /> Request a Custom Order
-            </a>
-            <a
-              href="#"
-              className="inline-flex items-center gap-2 rounded-full border-2 border-pine px-6 py-3 font-semibold text-pine transition hover:bg-pine hover:text-cream"
-            >
-              <InstagramIcon /> {shop.instagram}
             </a>
           </div>
         </div>
@@ -314,13 +308,12 @@ export function Footer() {
           <p className="font-semibold">Say Hi</p>
           <ul className="mt-3 space-y-2 text-sm text-cream/70">
             <li>{shop.email}</li>
-            <li>{shop.instagram}</li>
             <li>{shop.location}</li>
           </ul>
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-5 text-center text-xs text-cream/55">
-        © {new Date().getFullYear()} Bramble &amp; Bee Makery · Demo store built by{' '}
+        © {new Date().getFullYear()} Chokecherry &amp; Wren Makery · Demo store built by{' '}
         <a href="https://lavatechpro.com" className="underline hover:text-cream">LavaTech Pro</a>. Products, names, and reviews are examples.
       </div>
     </footer>

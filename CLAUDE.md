@@ -1,4 +1,4 @@
-# Craft Shop Demo (Bramble & Bee Makery)
+# Craft Shop Demo (Chokecherry & Wren Makery)
 
 Demo storefront for a fictional handmade craft shop, built by LavaTech Pro as a portfolio piece and a reusable starter template for small seller clients. All shop names, products, and reviews are made up.
 

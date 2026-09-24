@@ -66,14 +66,6 @@ export const StarIcon = ({ className = 'size-4' }: IconProps) => (
   </svg>
 )
 
-export const InstagramIcon = ({ className = 'size-5' }: IconProps) => (
-  <svg {...base} className={className}>
-    <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
-    <circle cx="12" cy="12" r="4" />
-    <circle cx="17" cy="7" r=".6" fill="currentColor" />
-  </svg>
-)
-
 export const MailIcon = ({ className = 'size-5' }: IconProps) => (
   <svg {...base} className={className}>
     <rect x="3" y="5.5" width="18" height="13" rx="2.5" />

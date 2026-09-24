@@ -3,12 +3,11 @@
 // All names, products, and reviews below are made up for the demo.
 
 export const shop = {
-  name: 'Bramble & Bee',
+  name: 'Chokecherry & Wren',
   suffix: 'Makery',
   tagline: 'Handmade in small batches in southeast Idaho',
   location: 'McCammon, Idaho',
-  email: 'hello@brambleandbee.example',
-  instagram: '@brambleandbee',
+  email: 'hello@chokecherryandwren.example',
   freeShippingOver: 60,
   discountPercent: 10,
 }

@@ -6,7 +6,7 @@ export function Logo({ light = false }: { light?: boolean }) {
   return (
     <a href="#top" className={`group inline-flex flex-col leading-none ${light ? 'text-cream' : 'text-ink'}`}>
       <span className="text-[1.55rem] font-extrabold tracking-tight">
-        Bramble <span className="script text-honey">&amp;</span> Bee
+        Chokecherry <span className="script text-honey">&amp;</span> Wren
       </span>
       <span className={`mt-1 text-[0.62rem] font-semibold tracking-[0.42em] ${light ? 'text-cream/70' : 'text-muted'}`}>
         {shop.suffix.toUpperCase()}
@@ -27,6 +27,13 @@ export default function Header() {
 
   return (
     <header id="top" className="sticky top-0 z-40 bg-cream/95 backdrop-blur">
+      <div className="bg-ink px-4 py-2 text-center text-xs text-cream/80">
+        Demo store by{' '}
+        <a href="https://lavatechpro.com/" className="font-semibold text-honey underline-offset-2 hover:underline">
+          LavaTech Pro
+        </a>
+        . The shop, products, and reviews are fictional.
+      </div>
       <div className="bg-pine px-4 py-2 text-center text-[0.8rem] font-medium tracking-wide text-cream">
         Free shipping on orders over ${shop.freeShippingOver} &nbsp;·&nbsp; Handmade in Idaho
       </div>
